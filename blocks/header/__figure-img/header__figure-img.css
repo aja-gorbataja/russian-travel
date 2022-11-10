@@ -1,0 +1,7 @@
+.header__figure-img {
+  max-width: 984px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+

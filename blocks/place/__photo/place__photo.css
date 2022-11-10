@@ -1,0 +1,23 @@
+.place__photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__photo {
+    height: 440px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__photo {
+    height: 340px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__photo {
+    height: 320px;
+  }
+}

@@ -1,0 +1,16 @@
+.header__figure {
+  margin: 0 auto;
+  max-width: 984px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__figure {
+    max-width: 962px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__figure {
+    max-width: 320px;
+  }
+}
