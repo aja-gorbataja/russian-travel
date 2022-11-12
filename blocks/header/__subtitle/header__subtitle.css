@@ -9,9 +9,15 @@
   font-style: normal;
 }
 
+@media screen and (max-width: 1024px) {
+  .header__subtitle {
+    margin-bottom: 56px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .header__subtitle {
-    margin: 0 auto 40px;
+    margin-bottom: 40px;
     font-size: 16px;
     line-height: 1.25;
   }

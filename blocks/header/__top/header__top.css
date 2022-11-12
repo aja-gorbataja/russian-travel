@@ -1,11 +1,10 @@
 .header__top {
   margin: 0 auto;
   padding-top: 28px;
-  display: grid;
-  height: 52px;
-  grid-template-columns: 1fr 30px 30px;
-  column-gap: 18px;
+  min-height: 52px;
   max-width: 1184px;
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 768px) {
@@ -18,6 +17,7 @@
   .header__top {
     max-width: 288px;
     grid-template-columns: 1fr 22px 22px;
-    height: 42px;
+    min-height: 42px;
+    padding-top: 16px;
   }
 }

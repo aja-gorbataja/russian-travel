@@ -2,11 +2,9 @@
   display: grid;
   max-width: 1184px;
   width: 100%;
-  height: 671px;
   grid-template-columns: repeat(4, fit-content(284px));
   gap: 16px;
   margin: 0 auto 102px;
-  
 }
 
 @media screen and (max-width: 1024px) {
@@ -14,7 +12,6 @@
     max-width: 928px;
     grid-template-columns: repeat(3, fit-content(300px));
     gap: 14px;
-    min-height: 942px;
     margin: 0 auto 92px;
   }
 }
@@ -24,7 +21,6 @@
     max-width: 720px;
     grid-template-columns: repeat(2, fit-content(352px));
     gap: 16px;
-    min-height: 1664px;
     margin: 0 auto 88px;
   }
 }
@@ -33,7 +29,6 @@
   .gallery {
     max-width: 288px;
     grid-template-columns: fit-content(288px);
-    min-height: 2724px;
     margin: 0 auto 64px;
     gap: 12px;
   }
