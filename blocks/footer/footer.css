@@ -1,6 +1,9 @@
 .footer {
   max-width: 1184px;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  padding-bottom: 24px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -15,8 +18,10 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 655px) {
   .footer {
+    grid-template-columns: none;
     max-width: 288px;
+    margin-left: 16px;
   }
 }

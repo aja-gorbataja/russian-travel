@@ -13,11 +13,10 @@
   white-space: pre-line;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .cover__title {
-    font-size: 32px;
+    font-size: 10vw;
     line-height: 1.1;
-    max-width: 288px;
     margin-bottom: 16px;
   }
 }

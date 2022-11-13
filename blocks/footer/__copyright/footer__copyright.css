@@ -5,14 +5,15 @@
   font-size: 14px;
   line-height: 1.14;
   margin: 0;
-  align-self: flex-end;
-  width: 100%;
   text-align: end;
 }
 
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 655px) {
   .footer__copyright {
-    text-align: start;
+    font-size: 14px;
+    line-height: 1;
     margin-top: 16px;
+    text-align: start;
   }
 }
