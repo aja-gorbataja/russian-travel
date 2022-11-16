@@ -15,5 +15,21 @@
 @media screen and (max-width: 768px) {
   .place__text {
     font-size: 16px;
+    margin-bottom: 25px;
+    line-height: 1.625;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .place__text {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__text {
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

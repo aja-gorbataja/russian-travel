@@ -16,8 +16,15 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 570px) {
+  .place__photo {
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 368px) {
   .place__photo {
     height: 320px;
+    padding: 0;
   }
 }
